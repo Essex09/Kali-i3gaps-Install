@@ -16,10 +16,6 @@ echo -e "\n"
 echo -e "Installing i3-gaps dependencies"
 apt-get install -y libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev
 
-# Copy Custom configs
-#cd /root/
-#git clone https://github.com/Essex09/dotfiles.git
-
 # i3-gaps Installation
 sleep .5;
 echo -e "\n"
@@ -62,3 +58,4 @@ git clone https://github.com/umurgdk/ddnotes.git && cp ddnotes/ddnotes /usr/bin/
 sleep .5;
 echo -e "\n"
 echo -e "Finished. Please restart to login to i3."
+echo -e "Download your own i3 config file to /root/.config/i3/"
