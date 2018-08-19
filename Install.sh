@@ -41,7 +41,7 @@ sudo make install
 sleep .5;
 echo -e "\n"
 echo -e "Ricing Kali"
-apt-get install -y lxappearance nitrogen arc-theme moka-icon-theme rofi compton xfce4-terminal neofetch
+apt-get install -y lxappearance nitrogen arc-theme moka-icon-theme rofi compton xfce4-terminal xfce4-panel papirus-icon-theme neofetch
 
 # ddnotes - Dependencies
 apt-get install -y xdotools dmenu
