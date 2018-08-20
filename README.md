@@ -7,12 +7,12 @@ Only tested on 64-bit versions of Kali.
 
 ## Ricing Kali
 * lxappearance 
-*nitrogen 
-*arc-theme 
-*moka-icon-theme 
-*rofi 
-*compton 
-*xfce4-terminal 
-*xfce4-panel 
-*papirus-icon-theme 
-*neofetch
+* nitrogen 
+* arc-theme 
+* moka-icon-theme 
+* rofi 
+* compton 
+* xfce4-terminal 
+* xfce4-panel 
+* papirus-icon-theme 
+* neofetch
