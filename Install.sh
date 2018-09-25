@@ -71,7 +71,7 @@ git clone https://github.com/wmutils/core.git && cd core/
 make && make install
 
 ## ddnotes Installation
-cd /root/gui/
+cd /root/Kali-i3gaps-Install/gui
 git clone https://github.com/umurgdk/ddnotes.git && cp ddnotes/ddnotes /usr/bin/
 
 ## Finish
