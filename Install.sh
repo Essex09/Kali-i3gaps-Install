@@ -1,7 +1,13 @@
 #!/bin/bash
 
 # Update
+echo -e "."
+echo -e "."
+echo -e "."
 echo -e "Updating Kali"
+echo -e "."
+echo -e "."
+echo -e "."
 apt-get update -y
 
 # Install i3 and it's dependencies
@@ -63,6 +69,14 @@ echo -e "."
 echo -e "."
 apt-get install -y lxappearance nitrogen arc-theme moka-icon-theme rofi compton xfce4-terminal xfce4-panel papirus-icon-theme neofetch zathura
 
+
+echo -e "."
+echo -e "."
+echo -e "."
+echo -e "Installing ddtools"
+echo -e "."
+echo -e "."
+echo -e "."
 # ddnotes - Dependencies
 apt-get install -y xdotools dmenu
 
