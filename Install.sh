@@ -78,7 +78,7 @@ echo -e "."
 echo -e "."
 echo -e "."
 # ddnotes - Dependencies
-apt-get install -y xdotools dmenu
+apt-get install -y xdotool dmenu
 
 cd /usr/
 git clone https://github.com/wmutils/core.git && cd core/
