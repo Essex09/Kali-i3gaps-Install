@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Prevent shutter from being removed
+echo "shutter hold" | sudo dpkg --set-selections
+
 # Update
 echo -e "."
 echo -e "."
