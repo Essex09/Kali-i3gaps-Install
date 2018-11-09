@@ -70,7 +70,7 @@ echo -e "Ricing Kali"
 echo -e "."
 echo -e "."
 echo -e "."
-apt-get install -y lxappearance nitrogen arc-theme moka-icon-theme rofi compton xfce4-terminal xfce4-panel papirus-icon-theme neofetch zathura
+apt-get install -y lxappearance nitrogen arc-theme moka-icon-theme rofi compton xfce4-terminal xfce4-panel papirus-icon-theme neofetch zathura i3status
 
 sleep .5;
 echo -e "."
