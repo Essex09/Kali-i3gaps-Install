@@ -70,26 +70,26 @@ echo -e "Ricing Kali"
 echo -e "."
 echo -e "."
 echo -e "."
-apt-get install -y lxappearance nitrogen arc-theme moka-icon-theme rofi compton xfce4-terminal xfce4-panel papirus-icon-theme neofetch zathura i3status
+apt-get install -y lxappearance nitrogen arc-theme moka-icon-theme rofi compton xfce4-terminal papirus-icon-theme neofetch zathura i3status
 
-sleep .5;
-echo -e "."
-echo -e "."
-echo -e "."
-echo -e "Installing ddtools"
-echo -e "."
-echo -e "."
-echo -e "."
+#sleep .5;
+#echo -e "."
+#echo -e "."
+#echo -e "."
+#echo -e "Installing ddtools"
+#echo -e "."
+#echo -e "."
+#echo -e "."
 # ddnotes - Dependencies
-apt-get install -y xdotool dmenu
+#apt-get install -y xdotool dmenu
 
-cd /usr/
-git clone https://github.com/wmutils/core.git && cd core/
-make && make install
+#cd /usr/
+#git clone https://github.com/wmutils/core.git && cd core/
+#make && make install
 
 ## ddnotes Installation
-cd /root/Kali-i3gaps-Install/gui
-git clone https://github.com/umurgdk/ddnotes.git && cp ddnotes/ddnotes /usr/bin/
+#cd /root/Kali-i3gaps-Install/gui
+#git clone https://github.com/umurgdk/ddnotes.git && cp ddnotes/ddnotes /usr/bin/
 
 ## Finish
 sleep .5;
