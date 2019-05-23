@@ -72,11 +72,6 @@ echo -e "."
 echo -e "."
 apt-get install -y lxappearance nitrogen arc-theme moka-icon-theme rofi compton xfce4-terminal papirus-icon-theme neofetch zathura i3status
 
-echo -e "."
-echo -e "."
-echo -e "Font installation"
-pip install powerline-status
-git clone https://github.com/powerline/fonts.git && cd fonts && sh ./install.sh
 
 #sleep .5;
 #echo -e "."
