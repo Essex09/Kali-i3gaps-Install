@@ -72,6 +72,11 @@ echo -e "."
 echo -e "."
 apt-get install -y lxappearance nitrogen arc-theme moka-icon-theme rofi compton xfce4-terminal papirus-icon-theme neofetch zathura i3status
 
+echo -e "."
+echo -e "."
+echo -e "Adding Overpass font"
+git clone https://github.com/RedHatBrand/Overpass.git && cp Overpass/desktop-fonts/overpass-mono/overpass-mono-regular.otf /usr/share/fonts/
+fc-cache -fv
 
 #sleep .5;
 #echo -e "."
