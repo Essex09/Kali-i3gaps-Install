@@ -37,7 +37,7 @@ echo -e "########################"
 echo -e "#  Installing i3-gaps  #"
 echo -e "########################"
 
-mkdir gui && cd gui
+mkdir /opt/i3install/gui && cd /opt/i3install/gui
 git clone https://www.github.com/Airblader/i3 i3-gaps && cd i3-gaps
 
 ## Source: https://github.com/Airblader/i3/wiki/Compiling-&-Installing
