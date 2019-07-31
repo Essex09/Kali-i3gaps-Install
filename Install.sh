@@ -71,6 +71,14 @@ echo -e "##########################"
 git clone https://github.com/RedHatBrand/Overpass.git && cp Overpass/desktop-fonts/overpass-mono/overpass-mono-regular.otf /usr/share/fonts/
 fc-cache -fv
 
+echo -e "\n"
+echo -e "##########################"
+echo -e "#  Installing OpenJDK    #"
+echo -e "##########################"
+# Fixes CS issue
+apt-get install openjdk-11-jdk
+update-java-alternatives -s java-1.11.0-openjdk-amd64
+
 #sleep .5;
 #echo -e "."
 #echo -e "."
