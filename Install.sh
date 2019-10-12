@@ -68,7 +68,8 @@ echo -e "##########################"
 echo -e "#  Adding Overpass font  #"
 echo -e "##########################"
 
-git clone https://github.com/RedHatBrand/Overpass.git && cp Overpass/desktop-fonts/overpass-mono/overpass-mono-regular.otf /usr/share/fonts/
+git clone https://github.com/RedHatBrand/Overpass.git
+cp Overpass/desktop-fonts/overpass-mono/overpass-mono-regular.otf /usr/share/fonts/
 fc-cache -fv
 
 #echo -e "\n"
