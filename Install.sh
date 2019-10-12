@@ -99,6 +99,17 @@ fc-cache -fv
 #cd /root/Kali-i3gaps-Install/gui
 #git clone https://github.com/umurgdk/ddnotes.git && cp ddnotes/ddnotes /usr/bin/
 
+echo -e "\n"
+echo -e "#####################################"
+echo -e "#  Installing Essex09's Configs     #"
+echo -e "#####################################"
+cd /opt/
+git clone https://github.com/Essex09/dotfiles.git
+cd dotfiles/
+cp .bashrc .profile /root/
+cd .config/ && cp -r compton/ i3/ neofetch/ rofi/ /root/.config/
+cd ../.local/share && cp -r xfce4 /root/.local/share/
+
 ## Finish
 sleep .5;
 echo -e "\n"
