@@ -107,7 +107,7 @@ cd /opt/
 git clone https://github.com/Essex09/dotfiles.git
 cd dotfiles/
 cp .bashrc .profile /root/
-cd .config/ && cp -r compton/ i3/ neofetch/ rofi/ /root/.config/
+cd .config/ && cp -r compton/ i3/ neofetch/ rofi/ xfce4/ /root/.config/
 cd ../.local/share && cp -r xfce4 /root/.local/share/
 
 ## Finish
